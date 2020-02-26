@@ -17,18 +17,22 @@ const Hellocomponent = () => {
 	<div className="kotak_login">
 		<p className="tulisan_login"><h1>Tugas Pertemuan KeTiga</h1></p>
 		
-		<form>
-			<label>Username</label>
-			<input type ="text" name ="username"className="form_login" placeholder="Masukkan username" required=""></input>
-		</form>
-		<form>
-			<label>Password</label>
-			<input type="text" name="password" className="form_login" placeholder="Masukkan Password" required=""></input>
-		</form>
+		<br>
+		</br>
+		<table align="center">
+		<thead>
+			<td><label>Username</label></td>
+			<td><input type ="text" name ="username"className="form_login" placeholder="Masukkan username" required=""></input></td>
+		</thead>
+		<tbody>
+			<td><label>Password</label></td>
+			<td><input type="text" name="password" className="form_login" placeholder="Masukkan Password" required=""></input></td>
+		</tbody>
+		</table>
 		
 		<br></br>
 		<form>
- 
+
 			<input type="submit" class="tombol_login" value="LOGIN"></input>
 			<br/>
 			<br/>

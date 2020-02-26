@@ -21,14 +21,14 @@ h1{
 	text-transform: uppercase;
 }
 label{
-	font-size: 11pt;
+	font-size: 12pt;
 }
 
 .form_login{
 	/*membuat lebar form penuh*/
 	box-sizing : border-box;
 	width: 100%;
-	padding: 10px;
+	padding: 5px;
 	font-size: 11pt;
 	margin-bottom: 20px;
 }
