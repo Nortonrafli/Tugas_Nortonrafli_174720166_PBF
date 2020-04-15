@@ -1,14 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import routes from "./routes";
+import { Link } from "react-router-dom";
 
 const Header = () => (
     <ul className="nav">
         {routes.map((route, i) => (
-            <li key={i}>
-                <link to ={route.path}>{route.name}</link>
+            <li key = {i}>
+                <Link to = {route.path}>{route.name}</Link>
             </li>
         ))}
-        </ul>
+    </ul>
 );
-export default Headers;
+
+export default Header;
